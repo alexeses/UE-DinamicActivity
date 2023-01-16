@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCreateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_button"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:textStyle="bold"
+        android:textSize="@dimen/textSize" />
+
+    <ScrollView
+        android:id="@+id/swButtons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnCreateButton"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="56dp">
+
+        <LinearLayout
+            android:id="@+id/llButtons"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnLoadBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSize"
+        android:textStyle="bold"
+        android:text="@string/create_load_bar"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

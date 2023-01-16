@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UE-DinamicActivity</string>
+    <string name="create_load_bar">Create load bar</string>
+    <string name="create_button">Create button</string>
+</resources>
